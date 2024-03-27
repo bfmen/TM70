@@ -17,7 +17,7 @@ echo -e "\e[36m
 \e[0m\n"
 mount -o remount,rw /
 cd /home/root/
-curl -sS https://gh-proxy.com/https://github.com/1114834078/TM70/blob/main/wj.zip
+curl -sS https://gh-proxy.com/https://raw.githubusercontent.com/bfmen/TM70/main/wj.zip
 unzip wj.zip
 chmod 755 wj
 while :
