@@ -205,7 +205,7 @@ if [ $ql -eq 9  ]; then
 fi
 if [ $ql -eq 10  ]; then
 	cd /home/root
-	curl -sS http://op.qulenali.cn:7890/static/media/JC09-8080.sh|sh
+	curl -sS https://gh-proxy.com/https://raw.githubusercontent.com/bfmen/TM70/main/JC09-8080.sh|sh
 
 	
     echo -e  "执行成功,全部执行完后主菜单 0 退出------5秒后返回菜单"
